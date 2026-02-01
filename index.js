@@ -468,7 +468,7 @@ async function run() {
     space: true
   });
   console.log(gradient.retro(centerText('=== Telegram Channel 🚀 : NT Exhaust (@NTExhaust) ===', terminalWidth)));
-  console.log(gradient.retro(centerText('✪ BOT MXC AUTO DAILY CHECK-IN ✪', terminalWidth)));
+  console.log(gradient.retro(centerText('✪ BOT MWX AUTO DAILY CHECK-IN ✪', terminalWidth)));
   console.log('\n');
   await initializeConfig();
 
@@ -479,5 +479,6 @@ async function run() {
     await delay(86400);
   }
 }
+
 
 run().catch(error => logger.error(`Fatal error: ${error.message}`, { emoji: '❌' }));
